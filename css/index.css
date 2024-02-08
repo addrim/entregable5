@@ -1,0 +1,63 @@
+body {
+    background-color: whitesmoke;
+    font-family: "Arial", sans-serif;
+}
+
+main {
+    background-image: url("../img/hero.jpg");
+    height: 338px;
+    width: 100%;
+}
+
+nav{
+    display: flex;
+    justify-content:right;
+    margin: 15px;
+}
+
+.menu_element {
+    padding-left: 15px;
+    color: rgb(15, 111, 90);
+    font-size: 15px;
+}
+
+#mensaje {
+    text-decoration-color: white;
+    color: white;
+    font-weight: bold;
+    padding-left: 100px;
+}
+
+.mensaje_texto_small {
+    font-size: 30px;
+    font-weight: normal; 
+}
+
+.mensaje_texto_medium {
+    font-size: 40px;
+}
+
+.mensaje_texto_large {
+    font-size: 50px;
+}
+
+footer>p {
+    text-align: center;
+}
+
+.footer_text1 {    
+    color: rgb(138, 140, 8);
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.footer_text2 {    
+    color: rgb(15, 111, 90);
+    font-weight: bold;
+    font-size: 15px;
+}
+
+.footer_text3 {    
+    color: rgb(15, 111, 90);
+    font-size: 15px;
+}
