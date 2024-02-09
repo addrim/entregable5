@@ -3,38 +3,54 @@ body {
     font-family: "Arial", sans-serif;
 }
 
-main {
-    background-image: url("../img/hero.jpg");
-    height: 338px;
-    width: 100%;
-}
-
 nav{
     display: flex;
     justify-content:right;
-    margin: 15px;
+    margin: 10px 60px 10px 10px;
 }
 
 .menu_element {
     padding-left: 15px;
     color: rgb(15, 111, 90);
     font-size: 15px;
+    text-decoration: none;
 }
 
-#mensaje {
-    text-decoration-color: white;
+.menu_element:hover {
+    color: rgb(148, 106, 27);
+  }
+
+main {
+    display: flex;
+    justify-content: center;
+}
+
+.mensaje {
+    background-image: url("../img/hero.jpg");
+    background-repeat: no-repeat;
+    height: 338px;
+    width: 1279px;
     color: white;
     font-weight: bold;
-    padding-left: 100px;
+}
+
+.mensaje_tabla {
+    margin: 50px 75px;
+    letter-spacing: 0.30em;
+}
+
+.mensaje_celda {
+    margin-left: 10px;
+    vertical-align: top;
 }
 
 .mensaje_texto_small {
-    font-size: 30px;
+    font-size: 25px;
     font-weight: normal; 
 }
 
 .mensaje_texto_medium {
-    font-size: 40px;
+    font-size: 35px;
 }
 
 .mensaje_texto_large {
@@ -47,17 +63,14 @@ footer>p {
 
 .footer_text1 {    
     color: rgb(138, 140, 8);
-    font-weight: bold;
     font-size: 20px;
 }
 
 .footer_text2 {    
     color: rgb(15, 111, 90);
-    font-weight: bold;
     font-size: 15px;
 }
 
-.footer_text3 {    
-    color: rgb(15, 111, 90);
-    font-size: 15px;
+.footer_bold {
+    font-weight: bold;
 }

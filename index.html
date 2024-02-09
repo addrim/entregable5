@@ -13,41 +13,47 @@
         </div>
         <hr>
         <nav>
-            <a class="menu_element">Residentes</a>
-            <a class="menu_element">Negocios</a>
-            <a class="menu_element">Visitanes</a>
-            <a class="menu_element">Gobierno</a>
+            <a class="menu_element" href="#">Residentes</a>
+            <a class="menu_element" href="#">Negocios</a>
+            <a class="menu_element" href="#">Visitanes</a>
+            <a class="menu_element" href="#">Gobierno</a>
         </nav>
     </header>
     <main>
-        <div id="mensaje">
-            <table>
+        <div class="mensaje">
+            <table class="mensaje_tabla">
                 <tr>
-                    <td><img src="img/hero-vector.svg"></td>
-                    <td colspan="2"><div class="mensaje_texto_medium">APRENDE A PROGRAMAR</div></td>
+                    <td>
+                        <div class="mensaje_celda"><img src="img/hero-vector.svg"></div>
+                    </td>
+                    <td colspan="2">
+                        <div class="mensaje_celda mensaje_texto_medium">APRENDE A PROGRAMAR</div>
+                    </td>
                 </tr>
-                <tr>
+                <tr style="vertical-align: top;">
                     <td></td>
-                    <td class="mensaje_texto_small" style="text-align: right; width:200px;">EN LAS</td>
-                    <td class="mensaje_texto_large">ESCUELAS</td>
-                </tr>
+                    <td>
+                        <div class="mensaje_celda mensaje_texto_small" style="text-align: right; width:300px;">EN LAS</div>
+                    </td>
+                    <td>
+                        <div class="mensaje_celda mensaje_texto_large" style="width:350px;">ESCUELAS<br>DE CÓDIGO</div>
+                    </td>
+                    </tr>
                 <tr>
-                    <td colspan="2"></td>
-                    <td class="mensaje_texto_large">DE CODIGO</td>
-                </tr>
-                <tr>
-                    <td colspan="2"></td>
-                    <td class="mensaje_texto_small">DE LA CDMX</td>
+                    <td style="margin: 20px;" colspan="2"></td>
+                    <td>
+                        <div class="mensaje_celda mensaje_texto_small">DE LA CDMX</div>
+                    </td>
                 </tr>            
             </table>
         </div>
     </main>
     <footer>
-        <p class="footer_text1">¿Quién se puede inscribir?</p>
-        <p class="footer_text3">
-            <span class="footer_text2">Cualquier persona que quiera aprender a programar código con 4-8 hroas disponibles a la semana.</span><br>
+        <p class="footer_text1 footer_bold">¿Quién se puede inscribir?</p>
+        <p class="footer_text2">
+            <span class="footer_bold">Cualquier persona que quiera aprender a programar código con 4-8 hroas disponibles a la
+                semana.</span><br>
             *Menores de edad daeberán entrar a las instalaciones acompañados de un adulto.
-            Listo
         </p>
     </footer>
 </body>
