@@ -1,0 +1,100 @@
+body {
+    background-color: whitesmoke;
+    font-family: "Arial", sans-serif;
+}
+
+nav{
+    display: flex;
+    justify-content:right;
+    margin: 10px 60px 10px 10px;
+}
+
+.menu-element {
+    padding-left: 15px;
+    color: rgb(15, 111, 90);
+    font-size: 15px;
+    text-decoration: none;
+}
+
+.menu-element:hover {
+    color: rgb(148, 106, 27);
+  }
+
+main{
+    display:flex;
+    background-image: url("../img/hero.jpg");    
+    height:338px;
+    padding-left:50px;
+    align-items:center;
+    background-repeat: no-repeat;
+}
+
+.mensaje{
+    display:flex;
+    height:75%;
+    width:80%;
+  }
+
+.mensaje-grid{
+    display:grid;
+    /* gap:13px; */
+    width:50%;
+    color:white;
+    font-weight: bold;
+  }
+
+  .mensaje-1{    
+    grid-column:1/4;/*1,2,3*/
+    grid-row:1/2;
+    margin-left: 10px;
+    display: inline-flex;
+    align-items: center;
+  }
+  .mensaje-2{
+    grid-column:2/3;/*2*/
+    grid-row:2/3;
+  }
+  .mensaje-3{    
+    grid-column:3/4;/*1,2,3*/
+    grid-row:2/3;    
+    margin-top: -6px;
+    padding-left: 10px;
+    line-height: 105%;
+    height: 80px;
+  }
+  .mensaje-4{
+    grid-column:3/4;/*1,2,3*/
+    grid-row:3/4;
+    padding-left: 10px;
+  }
+  
+.mensaje-txt-small {
+    font-size: 25px;
+    font-weight: normal;    
+}
+.mensaje-txt-medium {
+    font-size: 35px;
+}
+.mensaje-txt-large {
+    font-size: 50px;
+}
+
+footer>p {
+    text-align: center;
+}
+
+.footer-text1 {    
+    color: rgb(138, 140, 8);
+    font-size: 20px;
+    line-height: 50%;
+}
+
+.footer-text2 {    
+    color: rgb(15, 111, 90);
+    font-size: 15px;
+    line-height: 105%;
+}
+
+.footer-bold {
+    font-weight: bold;
+}
